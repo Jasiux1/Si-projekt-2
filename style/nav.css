@@ -2,15 +2,21 @@ div.nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 80px;
+
   list-style: none;
+  font-family: "Montserrat", sans-serif;
   border-right: 3px solid rgb(206, 206, 206);
+  width: 60vh;
 }
 div.logo {
   font-size: 20px;
+  font-weight: bold;
   text-align: center;
   display: flex;
-  margin: 10px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 70px;
 }
 div.smartpos {
   font-size: 15px;
@@ -23,25 +29,28 @@ div.menu {
   gap: 10px;
 }
 div.logo img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 div.menu button {
   background-color: white;
   border: none;
   display: flex;
   text-align: center;
+  align-items: center;
   gap: 5px;
   text-transform: capitalize;
+  font-size: 20px;
   margin-bottom: 10px;
   border-radius: 8px;
-  width: 150px;
-  height: 30px;
+  width: 12rem;
+  height: 3rem;
 }
 div.user {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 3rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 5%;
   width: 200px;
