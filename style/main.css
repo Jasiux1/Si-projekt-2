@@ -1,0 +1,22 @@
+div.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+div.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+div.product {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+div.product img {
+  width: 300px;
+  height: 300px;
+}
