@@ -22,3 +22,43 @@ div.product img {
   width: 300px;
   height: 300px;
 }
+div.header input {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 8px;
+  margin-left: 75vh;
+}
+div.header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+div.header #arrow_back {
+  font-size: 1rem;
+  background-color: rgb(205, 205, 205);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.header span.food {
+  color: rgb(205, 205, 205);
+  font-size: 0.75rem;
+}
+div.header #arrow_forward {
+  font-size: 0.75rem;
+  color: rgb(205, 205, 205);
+}
+div.header span.burgir {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+div.text-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
