@@ -6,6 +6,7 @@ div.nav {
   font-family: "Montserrat", sans-serif;
   border-right: 3px solid rgb(206, 206, 206);
   width: 60vh;
+  position: sticky;
 }
 div.logo {
   font-size: 20px;
@@ -51,7 +52,7 @@ div.menu button {
   font-size: 20px;
   margin-bottom: 10px;
   border-radius: 8px;
-  width: 12rem;
+  width: 16rem;
   height: 3rem;
 }
 div.user {
@@ -81,10 +82,27 @@ div.open-profile button {
   border: none;
 }
 div.menu button:hover {
-  background-color: orange;
+  background-color: rgb(246, 208, 20);
 }
 div.description {
   font-size: 0.75rem;
   margin-top: 0.5rem;
   font-weight: 300;
+}
+span.notifications-number {
+  background-color: rgb(246, 208, 20);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+div.open-profile button:hover {
+  scale: 1.1;
+}
+div.open-profile button:active {
+  scale: 0.9;
 }
