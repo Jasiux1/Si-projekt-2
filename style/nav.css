@@ -5,8 +5,9 @@ div.nav {
   list-style: none;
   font-family: "Montserrat", sans-serif;
   border-right: 3px solid rgb(206, 206, 206);
-  width: 60vh;
   position: sticky;
+  height: 100vh;
+  top: 0;
 }
 div.logo {
   font-size: 20px;
@@ -16,7 +17,7 @@ div.logo {
   align-items: center;
   margin-top: 30px;
   margin-left: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   gap: 5px;
 }
 div.logo span {
@@ -47,19 +48,24 @@ div.menu button {
   display: flex;
   text-align: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   text-transform: capitalize;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1rem;
   border-radius: 8px;
   width: 16rem;
-  height: 3rem;
+  height: 2.75rem;
+  margin-left: 1rem;
+}
+span.span-other {
+  margin-left: 1.7rem;
 }
 div.user {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 3rem;
+  margin-top: 2rem;
+  margin-inline: 3rem;
+  margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 5%;
   width: 200px;
