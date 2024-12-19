@@ -31,6 +31,10 @@ div.header div.input {
   align-items: center;
   gap: 5px;
 }
+div.input span {
+  padding-left: 5px;
+  padding-block: 5px;
+}
 div.header input {
   background-color: rgb(204, 204, 204);
   border: none;
@@ -58,7 +62,7 @@ div.header #arrow_back {
   justify-content: center;
 }
 div.header span.food {
-  color: rgb(205, 205, 205);
+  color: rgb(90, 89, 89);
   font-size: 0.75rem;
 }
 div.header #arrow_forward {
@@ -91,6 +95,8 @@ div.bar h1 {
 div.details h1 {
   color: rgb(246, 208, 20);
   font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 div.details h2 {
   font-weight: bold;
